@@ -14,9 +14,9 @@ class games():
         self.player_X=0 #40 ==> hna score d X
         self.player_O=0 #41 ==> hna Score d O
         
-        self.image_x=PhotoImage(file=r'C:\Users\moaad\Desktop\Gui_modern\Image\X.png') #42 ==> hadi picture d X l79ach lbutton mli ratdrt 3lih atwli f blasto ya X ya False 3la 7asab self.XX wach False wla True
+        self.image_x=PhotoImage(file='Image\X.png') #42 ==> hadi picture d X l79ach lbutton mli ratdrt 3lih atwli f blasto ya X ya False 3la 7asab self.XX wach False wla True
         
-        self.image_o=PhotoImage(file=r'C:\Users\moaad\Desktop\Gui_modern\Image\O.png') #43 ==>hadi picture d O
+        self.image_o=PhotoImage(file='Image\O.png') #43 ==>hadi picture d O
         
         
         self.listt=[] #45 ==> hadi drtha bach lbutton li drt 3lih kaysift ra9m b7al lbutton lwl kaysift ra9m 1 l wa7d lfunction dik lfunction katchd wa7d wkatzido lhad list bach mli n3awd ndrt 3la nfs lbutton atl9ah deja kayn f list wmaray5dmch l command
